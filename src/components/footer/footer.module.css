@@ -1,0 +1,15 @@
+/* ******************************
+ * FILENAME: footer.module.css                         
+ * LOCATION: ./components/footer/
+* *******************************/
+/* //////////////////////////////////////////////// */
+
+.footer {
+  background-color: red;
+}
+
+.footer > div {
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding: 1.45rem 1.0875rem;
+}

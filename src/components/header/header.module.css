@@ -1,0 +1,24 @@
+/* ******************************
+ * FILENAME: header.module.css                         
+ * LOCATION: ./components/header/
+* *******************************/
+/* //////////////////////////////////////////////// */
+
+.header {
+  background-color: rebeccapurple;
+}
+
+.header > div {
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding: 1.45rem 1.0875rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+  
+.header a {
+  color: white;
+  text-decoration: none;
+}
