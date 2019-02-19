@@ -21,6 +21,7 @@
     "develop": "gatsby develop",
     "start": "yarn develop",
     "serve": "gatsby serve",
+    "clean": "if git diff-index --quiet $(git write-tree) ; then git clean -xdf ; else echo \"UnClean\"; fi",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   }
 }
