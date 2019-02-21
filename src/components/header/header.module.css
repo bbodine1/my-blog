@@ -11,14 +11,38 @@
 .header > div {
   margin: 0 auto;
   max-width: var(--page-width);
-  padding: 1.45rem 1.0875rem;
+  padding: 0 1.0875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
 }
 
 .header h1 {
   margin: 0;
 }
   
-.header a {
+.header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
+  margin: 0;
+}
+
+.header li:not(:last-of-type) {
+  margin-right: 16px;
+}
+
+.header ul a {
   color: white;
   text-decoration: none;
 }
